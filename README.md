@@ -2,7 +2,9 @@
 
 > TOTP token generator
 
-[https://lab.miguelmota.com/totp-generator](https://lab.miguelmota.com/totp-generator)
+## Demo
+
+[https://lab.miguelmota.com/totp-token-generator](https://lab.miguelmota.com/totp-token-generator)
 
 ## License
 
