@@ -25540,7 +25540,7 @@ const form = document.getElementById('form')
 
 form.addEventListener('submit', (event) => {
   event.preventDefault()
-  const secret = event.currentTarget.secret.value.trim()
+  const secret = event.currentTarget.secret.value.trim().replace(/\s/gi, '')
 
   const token = speakeasy.totp({
     secret: Buffer.from(base32.decode(secret)),
